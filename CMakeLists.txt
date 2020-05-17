@@ -1,0 +1,198 @@
+cmake_minimum_required(VERSION 3.15)
+project(CSCI_2270)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(assignment-3)
+include_directories(assignment-4)
+include_directories(assignment-5)
+include_directories(exam-1/LinkedList)
+include_directories(exam-1/StacksQueue)
+include_directories(lab-1)
+include_directories(lab-2)
+#include_directories(lab-4)
+include_directories(lab-5)
+include_directories(lab-7)
+include_directories(lab-8)
+include_directories(lect-190913)
+include_directories(lect-190923)
+include_directories(lect-190927)
+include_directories(midterm-20191004/LinkedList)
+include_directories(midterm-20191004/StacksQueue)
+include_directories(Structures/LinkedList)
+include_directories(Structures/Tree)
+include_directories(assignment-7)
+
+add_executable(CSCI_2270
+        Structures/Heap/main.cpp
+        Structures/Heap/heap.cpp
+        Structures/Heap/heap.h
+        Structures/LinkedList/LinkedList.cpp
+        Structures/LinkedList/LinkedList.h
+        )
+
+#[[
+add_executable(CSCI_2270
+        assignment-1/CMakeLists.txt
+        assignment-1/input1.txt
+        assignment-1/input2.txt
+        assignment-1/output.csv
+        assignment-1/park.csv
+        assignment-1/problem_01
+        assignment-1/problem_01.cpp
+        assignment-1/problem_02
+        assignment-1/problem_02.cpp
+        assignment-2/a
+        assignment-2/CMakeLists.txt
+        assignment-2/ignoreWords.txt
+        assignment-2/problem_01.cpp
+        assignment-2/problem_02.cpp
+        assignment-2/Tom_Sawyer.txt
+        assignment-3/CMakeLists.txt
+        assignment-3/CountryNetwork.cpp
+        assignment-3/CountryNetwork.hpp
+        assignment-3/main.cpp
+        assignment-4/cmake-build-debug/assignment-3.cbp
+        assignment-4/cmake-build-debug/assignment-4.cbp
+        assignment-4/cmake-build-debug/cmake_install.cmake
+        assignment-4/cmake-build-debug/CMakeCache.txt
+        assignment-4/cmake-build-debug/Makefile
+        assignment-4/CMakeLists.txt
+        assignment-4/CountryNetwork.cpp
+        assignment-4/CountryNetwork.hpp
+        assignment-4/main.cpp
+        assignment-5/cmake-build-debug/assignment-5
+        assignment-5/cmake-build-debug/assignment-5.cbp
+        assignment-5/cmake-build-debug/cmake_install.cmake
+        assignment-5/cmake-build-debug/CMakeCache.txt
+        assignment-5/cmake-build-debug/Makefile
+        assignment-5/CMakeLists.txt
+        assignment-5/ProducerConsumer.cpp
+        assignment-5/ProducerConsumer.hpp
+        assignment-5/ProducerConsumerDriver.cpp
+        assignment-5/RPNCalculator.cpp
+        assignment-5/RPNCalculator.hpp
+        assignment-5/RPNCalculatorDriver.cpp
+        exam-1/Array/array.cpp
+        exam-1/cmake-build-debug/cmake_install.cmake
+        exam-1/cmake-build-debug/CMakeCache.txt
+        exam-1/cmake-build-debug/exam-1
+        exam-1/cmake-build-debug/exam-1.cbp
+        exam-1/cmake-build-debug/Makefile
+        exam-1/LinkedList/LinkedList.cpp
+        exam-1/LinkedList/LinkedList.hpp
+        exam-1/LinkedList/LinkedListDriver.cpp
+        exam-1/StacksQueue/Driver.cpp
+        exam-1/StacksQueue/QUEUEST.cpp
+        exam-1/StacksQueue/QUEUEST.hpp
+        exam-1/StacksQueue/STACKARR.cpp
+        exam-1/StacksQueue/STACKARR.hpp
+        exam-1/CMakeLists.txt
+        exam-1/MidTerm1_Friday.pdf
+        exam-1/README.md
+        lab-1/CMakeLists.txt
+        lab-1/hello.cpp
+        lab-1/hello.h
+        lab-1/input.txt
+        lab-1/iseven
+        lab-1/iseven.cpp
+        lab-1/student
+        lab-1/student.cpp
+        lab-2/CMakeLists.txt
+        lab-2/main.cpp
+        lab-2/swap.cpp
+        lab-2/swap.h
+        lab-3/a.out
+        lab-3/CMakeLists.txt
+        lab-3/exercise.cpp
+        lab-3/input.txt
+        lab-4/CMakeLists.txt
+        lab-4/LinkedList.cpp
+        lab-4/LinkedList.h
+        lab-4/main.cpp
+        "lab-4/Recitation 4.pdf"
+        lab-5/cmake-build-debug/cmake_install.cmake
+        lab-5/cmake-build-debug/CMakeCache.txt
+        lab-5/cmake-build-debug/lab-5
+        lab-5/cmake-build-debug/lab-5.cbp
+        lab-5/cmake-build-debug/Makefile
+        lab-5/CMakeLists.txt
+        lab-5/Driver.cpp
+        lab-5/DriverQueue.cpp
+        lab-5/QueueLL.cpp
+        lab-5/QueueLL.hpp
+        lab-5/StackLL.cpp
+        lab-5/StackLL.hpp
+        lab-7/cmake-build-debug/cmake_install.cmake
+        lab-7/cmake-build-debug/CMakeCache.txt
+        lab-7/cmake-build-debug/lab-7
+        lab-7/cmake-build-debug/lab-7.cbp
+        lab-7/cmake-build-debug/Makefile
+        lab-7/CMakeLists.txt
+        lab-7/driver.cpp
+        "lab-7/Recitation 7.pdf"
+        lab-7/tree.cpp
+        lab-7/tree.hpp
+        lab-8/cmake-build-debug/cmake_install.cmake
+        lab-8/cmake-build-debug/CMakeCache.txt
+        lab-8/cmake-build-debug/lab-8
+        lab-8/cmake-build-debug/lab-8.cbp
+        lab-8/cmake-build-debug/Makefile
+        lab-8/BST.cpp
+        lab-8/BST.hpp
+        lab-8/CMakeLists.txt
+        lab-8/driver.cpp
+        lab-8/Recitation8.pdf
+        lect-190904/a
+        lect-190904/CMakeLists.txt
+        lect-190904/hello_world.cpp
+        lect-190904/tester.cpp
+        lect-190906/array_doubling.cpp
+        lect-190906/CMakeLists.txt
+        lect-190911/a.out
+        lect-190911/array_doubling.cpp
+        lect-190911/array_doubling.o
+        lect-190911/CMakeLists.txt
+        lect-190913/CMakeLists.txt
+        lect-190913/LinkedList.cpp
+        lect-190913/LinkedList.h
+        lect-190913/main.cpp
+        lect-190913/Stack.cpp
+        lect-190913/Stack.h
+        lect-190923/CMakeLists.txt
+        lect-190923/LinkedList.cpp
+        lect-190923/LinkedList.h
+        lect-190923/main.cpp
+        lect-190923/Queue.cpp
+        lect-190923/Queue.h
+        lect-190923/Stack.cpp
+        lect-190923/Stack.h
+        lect-190927/cmake-build-debug/cmake_install.cmake
+        lect-190927/cmake-build-debug/CMakeCache.txt
+        lect-190927/cmake-build-debug/lect-190927
+        lect-190927/cmake-build-debug/lect-190927.cbp
+        lect-190927/cmake-build-debug/Makefile
+        lect-190927/CMakeLists.txt
+        lect-190927/LinkedList.cpp
+        lect-190927/LinkedList.h
+        midterm-20191004/LinkedList/LinkedList.cpp
+        midterm-20191004/LinkedList/LinkedList.hpp
+        midterm-20191004/LinkedList/LinkedListDriver.cpp
+        midterm-20191004/StacksQueue/QueueLL.cpp
+        midterm-20191004/StacksQueue/QueueLL.hpp
+        midterm-20191004/StacksQueue/STACKARR.cpp
+        midterm-20191004/StacksQueue/STACKARR.hpp
+        midterm-20191004/StacksQueue/StackLL.cpp
+        midterm-20191004/StacksQueue/StackLL.hpp
+        midterm-20191004/CMakeLists.txt
+        Structures/LinkedList/LinkedList.cpp
+        Structures/LinkedList/LinkedList.h
+        Structures/LinkedList/ListNode.cpp.disabled
+        Structures/LinkedList/ListNode.h
+        Structures/Tree/main.cpp
+        Structures/Tree/Tree.cpp
+        Structures/Tree/Tree.h
+        Structures/CMakeLists.txt
+        Structures/main.cpp
+        README.md)
+]]

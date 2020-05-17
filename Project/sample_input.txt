@@ -1,0 +1,93 @@
+1
+F. Scott Fitzgerald
+The Great Gatsby
+1
+George Orwell
+Nineteen Eighty-Four
+1
+J. D. Salinger
+The Catcher in the Rye
+1
+Harper Lee
+To Kill a Mockingbird
+1
+J. R. R. Tolkien
+The Lord of the Rings
+1
+Aldous Huxley
+Brave New World
+1
+Jane Austen
+Pride and Prejudice
+1
+William Golding
+Lord of the Flies
+1
+George Orwell
+Animal Farm
+1
+J. R. R. Tolkien
+The Hobbit
+1
+A. A. Milne
+Winnie-the-Pooh
+1
+Joseph Conrad
+Heart of Darkness
+1
+Leo Tolstoy
+War and Peace
+1
+Herman Melville
+Moby-Dick
+1
+Ernest Hemingway
+For Whom the Bell Tolls
+1
+Charles Dickens
+David Copperfield
+1
+Fyodor Dostoyevsky
+Crime and Punishment
+1
+Fyodor Dostoyevsky
+The Fool
+1
+Fyodor Dostoyevsky
+The Brothers Karamazov
+1
+Miguel de Cervantes
+Don Quixote
+1
+Mark Twain
+Adventures of Huckleberry Finn
+1
+J. K. Rowling
+Harry Potter and the Philosopher's Stone
+1
+Mary Shelley
+Frankenstein
+1
+Ernest Hemingway
+The Old Man and the Sea
+1
+Frank Herbert
+Dune
+2
+Fyodor Dostoyevsky
+2
+J. R. R. Tolkien
+2
+This is not a valid title
+4
+James
+J. R. R. Tolkien
+The Hobbit
+4
+James
+J. R. R. Tolkien
+The Lord of the Rings
+5
+2
+J. R. R. Tolkien
+6
